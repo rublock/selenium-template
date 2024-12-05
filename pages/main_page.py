@@ -10,4 +10,4 @@ class MainPage(BasePage):
     def should_be_price_list(self):
         assert self.is_element_present(
             *BasePageLocators.PRICE_LIST_LINK
-        ), "Нет ссылка на прайс-лист (.price_download)"
+        ), "Нет ссылки на прайс-лист (.price_download)"
