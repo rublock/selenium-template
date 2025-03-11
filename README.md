@@ -3,5 +3,5 @@
 
 запуск тестов
 ```bash
-pytest -s -v --browser_name=chrome test_main.py
+pytest -v --browser_name=chrome test_main.py
 ```
